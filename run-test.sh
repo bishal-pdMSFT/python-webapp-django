@@ -1,3 +1,3 @@
 #!/bin/bash
-python -m pip install -r requirements.txt
-python manage.py test
+python3 -m pip install -r requirements.txt --user
+python3 manage.py test
